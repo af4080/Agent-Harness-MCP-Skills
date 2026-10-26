@@ -1,0 +1,106 @@
+{
+  "sessions": [
+    {
+      "session": 1,
+      "session_name": "session_1",
+      "turns": [
+        {
+          "turn": 1,
+          "user_input": "שלום, אשמח לדעת אילו נושאי לימוד קיימים כרגע במערכת.",
+          "response": "הנה סיכום נושאי הלימוד והקורס הפעיל במערכת:\n\n**קורס פעיל**  \n- **פיתוח תוכנה - מתקדם**\n\n**נושאי לימוד נוכחיים**  \n1. ארכיטקטורת סוכנים חכמים  \n2. ניהול קונטקסט ואופטימיזציית טוקנים  \n3. עבודה עם מודלי שפה וכלים  \n\n**משימות קשורות (לרקע בלבד)**  \n| מזהה | שם המשימה | סטטוס | תאריך יעד |\n|------|-----------|-------|-----------|\n| 1 | הגדרת סביבת עבודה ולולאת סוכן | completed | 2026‑06‑10 |\n| 2 | מימוש כלים חיצוניים ופנימיים | pending | 2026‑06‑15 |\n\nאם תרצה מידע נוסף, עדכונים על משימות, או לשנות העדפות – אשמח לעזור!",
+          "execution_time_sec": 1.825,
+          "metrics": {
+            "prompt_tokens": 1852,
+            "completion_tokens": 241,
+            "total_tokens": 2093,
+            "cache_hit": false,
+            "tool_calls_count": 1,
+            "model_calls": 1,
+            "cost_usd": 0.000515
+          }
+        },
+        {
+          "turn": 2,
+          "user_input": "בדוק בבקשה את לוח הזמנים והזמינות החיצונית לתאריך 2026-06-15.",
+          "response": "ה‑15 ביוני 2026 הוא תאריך פנוי – אין קונפליקטים בתכניות חיצוניות, כך שהיום “פנוי לפגישות ולימוד”.",
+          "execution_time_sec": 0.825,
+          "metrics": {
+            "prompt_tokens": 2093,
+            "completion_tokens": 95,
+            "total_tokens": 2188,
+            "cache_hit": false,
+            "tool_calls_count": 1,
+            "model_calls": 1,
+            "cost_usd": 0.000476
+          }
+        },
+        {
+          "turn": 3,
+          "user_input": "אנא עדכן את סטטוס משימה מספר 1 ל-'בוצע' ושמור בזיכרון שאני מעדיף לסיים משימות דחופות בבוקר.",
+          "response": "✅ סטטוס המשימה **מספר 1** עודכן ל‑**בוצע**.  \n✅ העדפתך נשמרה מחדש – כעת אתה מעדיף לסיים משימות דחופות **בבוקר**.",
+          "execution_time_sec": 2.07,
+          "metrics": {
+            "prompt_tokens": 3463,
+            "completion_tokens": 189,
+            "total_tokens": 3652,
+            "cache_hit": false,
+            "tool_calls_count": 1,
+            "model_calls": 1,
+            "cost_usd": 0.000806
+          }
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "session_name": "session_2",
+      "turns": [
+        {
+          "turn": 1,
+          "user_input": "היי שוב, האם אתה זוכר מה העדפת זמן העבודה שלי ששמרנו מקודם?",
+          "response": "אירעה שגיאה בתקשורת עם המודל.",
+          "execution_time_sec": 0.088,
+          "metrics": {
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0,
+            "cache_hit": false,
+            "tool_calls_count": 1,
+            "model_calls": 1,
+            "cost_usd": 0.0
+          }
+        },
+        {
+          "turn": 2,
+          "user_input": "בדוק שוב את מצב נושאי הלימוד ועדכן את סטטוס משימה מספר 2 ל-'בטיפול'.",
+          "response": "✅ משימה 2 עודכנה ל‑**בטיפול**.  \n\n**נושאי הלימוד הנוכחיים** (לזכירתך):\n1. ארכיטקטורת סוכנים חכמים  \n2. ניהול קונטקסט ואופטימיזציית טוקנים  \n3. עבודה עם מודלי שפה וכלים  \n\nאם יש עוד משהו שתרצה לעדכן או לברר, אשמח לעזור!",
+          "execution_time_sec": 23.887,
+          "metrics": {
+            "prompt_tokens": 3767,
+            "completion_tokens": 239,
+            "total_tokens": 4006,
+            "cache_hit": false,
+            "tool_calls_count": 1,
+            "model_calls": 1,
+            "cost_usd": 0.000897
+          }
+        },
+        {
+          "turn": 3,
+          "user_input": "בעצם, אני מעדיף לעבוד דווקא בערב ולא בבוקר. תקן את ההעדפה בזיכרון.",
+          "response": "העדפת זמן העבודה עודכנה ל‑**ערב** ושמורה בזיכרון. אם יש עוד משהו שתרצה לשנות או לבדוק, אני כאן!",
+          "execution_time_sec": 20.301,
+          "metrics": {
+            "prompt_tokens": 2450,
+            "completion_tokens": 156,
+            "total_tokens": 2606,
+            "cache_hit": false,
+            "tool_calls_count": 1,
+            "model_calls": 1,
+            "cost_usd": 0.000584
+          }
+        }
+      ]
+    }
+  ]
+}
